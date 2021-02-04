@@ -26,7 +26,6 @@ body{
 .book{
 	margin-top: 2%;
 	max-width: 230px;
-	float:left;
 	margin-right: 2%;
 
 	
@@ -56,6 +55,8 @@ body{
 
 .container{
 	min-height: 500px; 
+	display: flex;
+	flex-wrap: wrap;
 }
 .nav ul {
   list-style-type: none;
